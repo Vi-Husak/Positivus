@@ -1,3 +1,5 @@
+AOS.init();
+
 const burgerMenu = document.querySelector("#menu-btn");
 const menuOverlay = document.querySelector("#menu-content");
 
@@ -61,5 +63,3 @@ const testimonialsSwiper = new Swiper(".testimonials__swiper", {
     },
   },
 });
-
-AOS.init();
