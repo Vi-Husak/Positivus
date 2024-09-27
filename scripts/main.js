@@ -63,3 +63,5 @@ const testimonialsSwiper = new Swiper(".testimonials__swiper", {
     },
   },
 });
+
+AOS.refresh();
